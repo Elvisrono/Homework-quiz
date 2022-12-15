@@ -1,0 +1,19 @@
+{
+  "name": "homework-quiz",
+  "version": "1.0.0",
+  "description": "Question and answer quizs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kericho/Homework-quiz.git"
+  },
+  "author": "Elvis Rono",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kericho/Homework-quiz/issues"
+  },
+  "homepage": "https://github.com/kericho/Homework-quiz#readme"
+}
