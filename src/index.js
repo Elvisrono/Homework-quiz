@@ -14,7 +14,7 @@
         .then((data) => setQuestion(data))
     })  
 
-    }fetchQuestions()
+    }fetchQuestions();
 
     let btn1;
     let btn2;
@@ -26,8 +26,8 @@
     btn3.addEventListener("click", chooseAnswer)
     btn4.addEventListener("click", chooseAnswer)
    
-    btn1=choice1.innerHTML
-    btn2=choice2.innerHTML
+    btn1=choice1.innerHTML;
+    btn2=choice2.innerHTML;
     btn3=choice3.innerHTML;
     btn4=choice4.innerHTML;
 
@@ -52,14 +52,14 @@
     let answer=quizBank.correct;
 
     choice1.innerHTML=quizBank.a;
-    choice2.innerHTML=quizBank.b
-    choice3.innerHTML=quizBank.c
-    choice4.innerHTML=quizBank.d
+    choice2.innerHTML=quizBank.b;
+    choice3.innerHTML=quizBank.c;
+    choice4.innerHTML=quizBank.d;
 
-    allChoices.appendChild(choice1)
-    allChoices.appendChild(choice2)
-    allChoices.appendChild(choice3)
-    allChoices.appendChild(choice4)
+    allChoices.appendChild(choice1);
+    allChoices.appendChild(choice2);
+    allChoices.appendChild(choice3);
+    allChoices.appendChild(choice4);
 
    
 //  write a function that enables users choose answers and display them in the DOM
@@ -71,10 +71,10 @@
     
     if(btn1 === answer && btn2 === answer && btn3 === answer && btn4 === answer
         ){
-        document.getElementById('answer').innerHTML='Correct Answer'
+        document.getElementById('answer').innerHTML='Incorrect answer'
     }
     else{
-        document.getElementById('answer').innerHTML="Incorrect Answer"
+        document.getElementById('answer').innerHTML="correct Answer"
     }
     document.getElementById("form_input").reset()
    }
