@@ -63,6 +63,10 @@
 
    
 //  write a function that enables users choose answers and display them in the DOM
+
+
+
+
    function chooseAnswer(){
     
     if(btn1 === answer && btn2 === answer && btn3 === answer && btn4 === answer

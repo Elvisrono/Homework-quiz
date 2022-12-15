@@ -1,16 +1,25 @@
-*{
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     user-select: none;
+    background-color: #59b403;
+}
+
+.card-img{
+    height: 100px;
+    width: fit-content;
+    padding: 0%;
+    margin:0%
 }
 body{
-    background-image: url("img/pexels-pixabay-208494.jpg");
-    backdrop-filter: blur(3px);
+    background-image: inherit;
     background-position-y: center;
     background-position-x: center;
     font-family: 'Playfair Display', serif;
-    background-color: aqua;
+    appearance: menulist-button;
+    background-color: #6ce40a;
+
 
 }
 .container{
@@ -19,9 +28,10 @@ body{
     justify-content: space-between;
     height: 100vh;
     width: 100vw;  
+    background-color: #09181a;
 }
 nav{
-    display: flex;
+    display:flex;
     width: 100%;
     background: #1c6392;
     color: rgb(47, 218, 42);
@@ -33,26 +43,21 @@ nav{
     z-index: 100;
     border: 1px solid #A5C9CA;
     box-shadow: 0 0 5px #E7F6F2;
+    padding: 1%;
+    margin: 1%;
 }
-#logo{
-    /* padding-left: 70px; */
-    height: 10px;
-    width: 10px;
-    padding: 1px;
-    border-radius: 50%;
-    /* margin-inline: 50px; */
-}
+
 h1{
     font-size: 40px;
     padding-right: 350px;
     padding-top: 13px;
-    font-style: oblique;
+    font-style:unset;
 }
 #welcome{
     display: flex;
-    flex-direction: column;
+    flex-direction:inherit;
     align-items: center;
-    color: #b7c1c9;
+    color: #59b403;
     font-size: 17px;
 }
 section{
@@ -63,6 +68,10 @@ section{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
+
+#display{
+    display: flex;
+}
 #category{
     display: flex;
     justify-content: space-between;
@@ -71,7 +80,7 @@ section{
     padding: 15px;
     border-radius: 4px;
     width: 60%;
-    height:fit-content;
+    height:10;
     border: 1px solid #A5C9CA;
     box-shadow: 0 0 8px #E7F6F2; 
 }
@@ -120,7 +129,7 @@ P button{
     padding: 10px;
 }
 .display span{
-    color: white;
+    color: rgb(22, 116, 10);
     display: flex;
     text-decoration: underline;
 }
@@ -144,7 +153,7 @@ footer{
     display: flex;
     justify-content: space-around;
     background-color: #DCD7C9;
-    border: 1px solid #A5C9CA;
+    border: 1px solid #74d5d8;
     box-shadow: 0 0 3px #E7F6F2;
 }
 a{
@@ -166,9 +175,7 @@ h6{
     font-size: 15px;
     color: #1c6392;
 }
-#subscribe{
-    height: 25px;
-}
+
 #subscribeForm{
     padding: 10px;
 }
