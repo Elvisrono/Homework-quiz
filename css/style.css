@@ -1,16 +1,16 @@
 body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
     user-select: none;
-    background-color: #59b403;
+    background-color: hwb(217 4% 89%);
 }
 
 .card-img{
     height: 100px;
     width: fit-content;
-    padding: 0%;
-    margin:0%
+    padding: 0;
+    margin:0;
 }
 body{
     background-image: inherit;
@@ -18,7 +18,7 @@ body{
     background-position-x: center;
     font-family: 'Playfair Display', serif;
     appearance: menulist-button;
-    background-color: #6ce40a;
+    background-color: hsl(0, 0%, 8%);
 
 
 }
