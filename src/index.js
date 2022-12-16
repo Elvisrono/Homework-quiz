@@ -1,4 +1,5 @@
  // wite a function that will load content on the DOM
+    const url = "http://localhost:3000/Questions" 
  const initialize= () => {
  
     // write a function that fetchs questions from the local server
