@@ -1,23 +1,21 @@
-body{
-    margin: 0;
-    padding: 0;
+html, body{
+    margin: 0%;
+    padding: 0%;
     box-sizing: content-box;
-    user-select: none;
     background-color: hwb(217 4% 89%);
 }
 
 .card-img{
     height: 100px;
-    width: fit-content;
-    padding: 0;
-    margin:0;
+    width: 150px;
+    padding: 0.1%;
+    margin:0.1%;
 }
 body{
     background-image: inherit;
-    background-position-y: center;
-    background-position-x: center;
+    background-position: left;
     font-family: 'Playfair Display', serif;
-    appearance: menulist-button;
+    appearance:inherit;
     background-color: hsl(0, 0%, 8%);
 
 
