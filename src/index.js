@@ -72,12 +72,12 @@
     
     if(btn1 === answer && btn2 === answer && btn3 === answer && btn4 === answer
         ){
-        document.getElementById('answer').innerHTML='Incorrect answer'
+        document.getElementById('answer').innerHTML='correct answer'
     }
     else{
-        document.getElementById('answer').innerHTML="correct Answer"
+        document.getElementById('answer').innerHTML="Incorrect Answer"
     }
-    document.getElementById("form_input").reset()
+    return document.getElementById("form_input").reset()
    }
 
 
