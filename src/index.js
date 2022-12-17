@@ -17,6 +17,34 @@
 
     }fetchQuestions();
 
+    //search form
+
+    const searchForm = document.getElementById("search-form")
+    const searchInput = document.getElementById("search")
+
+    //search form submit listener
+
+    searchForm.addEventListener("submit", (e) => {
+        e.preventDefault()
+        const query = searchInput.value
+        searchQuestions(query)
+        searchRow.style.display = "flex"
+        searchRow.removeAttribute('hidden')
+
+    })
+
+    //create search results
+
+    const createSearchResults = (questions, link) => {
+        const rootDiv = document.createElement('div')
+        rootDiv.classList.add("display")
+
+        formDiv.appendChild(questions)
+
+        rootDiv.appendChild(formDiv)
+        return rootDiv
+    }
+
     let btn1;
     let btn2;
     let btn3;

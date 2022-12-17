@@ -5,6 +5,12 @@ html, body{
     background-color: hwb(217 4% 89%);
 }
 
+.d-flex{
+    margin: 0;
+    padding: 1%;
+    background-color: #6ce40a;
+}
+
 .card-img{
     height: 100px;
     width: 150px;
