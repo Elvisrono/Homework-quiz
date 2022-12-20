@@ -1,5 +1,5 @@
  // wite a function that will load content on the DOM
-    const url = "http://localhost:3000/Questions" 
+
  const initialize= () => {
  
     // write a function that fetchs questions from the local server
@@ -10,7 +10,7 @@
         e.preventDefault();
         const input=document.getElementById('input_section');
 
-        fetch(`http://localhost:3000/Questions/${input.value}`)
+        fetch(`https://github.io/kericho/Homework-quiz/db.json/Questions/${input.value}`)
         .then((res) => res.json())
         .then((data) => setQuestion(data))
     })  
@@ -22,16 +22,7 @@
     const searchForm = document.getElementById("search-form")
     const searchInput = document.getElementById("search")
 
-    //search form submit listener
-
-    searchForm.addEventListener("submit", (e) => {
-        e.preventDefault()
-        const query = searchInput.value
-        searchQuestions(query)
-        searchRow.style.display = "flex"
-        searchRow.removeAttribute('hidden')
-
-    })
+   
 
     //create search results
 
@@ -133,7 +124,7 @@
 }
 // write a function that adds comments to the server
 function postToJson(user){
-    fetch("http://localhost:3000/comments", {
+    fetch("https://github.io/kericho/Homework-quiz/db.json/comments", {
         method: "POST",
         headers: {"Content-Type": "application/json",
         Accept: "application/json",
