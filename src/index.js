@@ -18,7 +18,28 @@
     }fetchQuestions();
 
 
-   
+    //login info
+
+    const contain = document.getElementById("contain")
+    const login = document.getElementById("login")
+    const main = document.getElementById("app")
+    const signup = document.getElementById("signup")
+    const signupform = document.getElementById("signupform")
+    const loginform = document.getElementById("loginform")
+
+    signup.addEventListener("click", (e) => {
+        e.preventDefault()
+        loginform.removeAttribute("hidden")
+        loginform.style.display= "block"
+        signupform.style.display="none"
+    })
+
+    login.addEventListener("click", (e) => {
+        e.preventDefault()
+        app.removeAttribute("hidden")
+        login.style.display="none"
+        loginform.style.display="none"
+    })
 
 
 
