@@ -40,12 +40,7 @@
         login.style.display="none"
         loginform.style.display="none"
     })
-
-
-
-
   
-
     let btn1;
     let btn2;
     let btn3;
@@ -60,8 +55,6 @@
     btn2=choice2.innerHTML;
     btn3=choice3.innerHTML;
     btn4=choice4.innerHTML;
-
-
 
 // write a function that displays questions on the DOM when user clicks the submit button
     function setQuestion(quizBank){
@@ -96,9 +89,6 @@
    
 //  write a function that enables users choose answers and display them in the DOM
 
-
-
-
    function chooseAnswer(){
     
     if(btn1 === answer && btn2 === answer && btn3 === answer && btn4 === answer
@@ -118,12 +108,6 @@
 }
  document.addEventListener("DOMContentLoaded", initialize)
 
-   
- 
-
-
-
- 
     document.getElementById("subscribeForm").addEventListener("submit", postComments)
 
     function postComments(e){
