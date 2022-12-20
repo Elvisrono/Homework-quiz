@@ -1,5 +1,5 @@
  // wite a function that will load content on the DOM
-    let url = "https://api.npoint.io/0e399a72bfb99e1c1997/Questions" 
+    const url = "http://localhost:3000/Questions" 
  const initialize= () => {
  
     // write a function that fetchs questions from the local server
@@ -10,7 +10,7 @@
         e.preventDefault();
         const input=document.getElementById('input_section');
 
-        fetch(`https://api.npoint.io/0e399a72bfb99e1c1997/Questions/ ${input.value}`)
+        fetch(`http://localhost:3000/Questions/${input.value}`)
         .then((res) => res.json())
         .then((data) => setQuestion(data))
     })  
@@ -133,7 +133,7 @@
 }
 // write a function that adds comments to the server
 function postToJson(user){
-    fetch("https://api.npoint.io/0e399a72bfb99e1c1997/comments", {
+    fetch("http://localhost:3000/comments", {
         method: "POST",
         headers: {"Content-Type": "application/json",
         Accept: "application/json",
