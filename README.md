@@ -1,5 +1,5 @@
 # Homework-quiz app
-- This website app functions in a manner through which can see the number of questions and its choices. It also have input for one to log in to your email account and  a submmit button to view each question.
+- This website app functions in a manner through which can see the number of questions and its choices. It also have input for one to place there email in order for them to get more quiz. It also have a submmit button to view each question when clicked.
 
 # Development requirements
 - Visual studio code
