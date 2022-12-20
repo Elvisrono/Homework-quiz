@@ -9,6 +9,26 @@
     <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 <body>
+    <!--signup form-->
+    <div id="signupform">
+        <form> 
+            <div class="contain"> 
+                <h2> Student signup Form </h2> 
+                <label>first name : </label>  
+                <input type="text" placeholder="Enter Username" name="first name" required> <br>
+                <label>second name : </label>  
+                <input type="text" placeholder="Enter Username" name="second name" required> <br>
+                <label>email: </label>  
+                <input type="text" placeholder="Enter Username" name="email" required> <br>
+                <label>Password : </label>  
+                <input type="password" placeholder="Enter Password" name="password" required> <br>
+                <button id="signup" type="submit">sign up</button>  
+                
+            </div>  
+        </form>
+        </div>
+    
+    <main id="app" hidden>   
      <!-- div with class container has all containers inside -->
      <div class="container">
         <!-- nav bar section -->
@@ -17,6 +37,7 @@
             <div id="title">
                 <h1>Homework-quizz</h1>
             </div>
+            
             <form class="d-flex">
                 <input class="form-control"
                 type="text" placeholder="Search"
@@ -69,6 +90,8 @@
     <div>
         <p>Reach us for more quiz through this email quizapp90@gmail.com</p>
     </div>
+    </main>
+
     <script src="/src/index.js"></script>
     <script src="src/bootstrap.js"></script>
 </body>
