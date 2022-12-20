@@ -41,9 +41,10 @@ To get the code,
 
 # Deliverables
 - As i user one can able to see ;
-1. An email input login.
-2. The number of questions through a dropdown key.
-3. Submit button when click displays the questions and its choices.
+1. A signup form and a loginform
+2. An email input login.
+3. The number of questions through a dropdown key.
+4. Submit button when click displays the questions and its choices.
 
 # live link
-- https://kericho.github.io/Homework-quiz/
+- https://kericho.netlify.app/
