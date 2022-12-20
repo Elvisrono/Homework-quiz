@@ -10,7 +10,7 @@
         e.preventDefault();
         const input=document.getElementById('input_section');
 
-        fetch(`https://github.io/kericho/Homework-quiz/db.json/Questions/${input.value}`)
+        fetch(`https://api.npoint.io/aa2ffcd684b4b0cf6008/Questions/${input.value}`)
         .then((res) => res.json())
         .then((data) => setQuestion(data))
     })  
@@ -22,7 +22,16 @@
     const searchForm = document.getElementById("search-form")
     const searchInput = document.getElementById("search")
 
-   
+    //search form submit listener
+
+    searchForm.addEventListener("submit", (e) => {
+        e.preventDefault()
+        const query = searchInput.value
+        searchQuestions(query)
+        searchRow.style.display = "flex"
+        searchRow.removeAttribute('hidden')
+
+    })
 
     //create search results
 
@@ -124,7 +133,7 @@
 }
 // write a function that adds comments to the server
 function postToJson(user){
-    fetch("https://github.io/kericho/Homework-quiz/db.json/comments", {
+    fetch("https://api.npoint.io/aa2ffcd684b4b0cf6008/comments", {
         method: "POST",
         headers: {"Content-Type": "application/json",
         Accept: "application/json",
