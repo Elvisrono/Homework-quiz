@@ -6,6 +6,7 @@
 - Live server  extension
 - npm
 - json-sever
+
 # Other requirement
 - Any accessory for accessing internet i.e laptop
 
@@ -29,7 +30,7 @@ To get the code,
 ```bash
  json-server --watch db.json.
  ```
-- Below at the bottom of your vs code click on the Go live to display the animals on the browser.
+- Below at the bottom of your vs code click on the Go live to display the questions on the browser.
 
 
 # Technology used
@@ -39,10 +40,10 @@ To get the code,
 - Bootstrap
 
 # Deliverables
-- As i user one can able to see 
-1. An email input login
-2. The number of questions through a dropdown key
-3. Submit button when click displays the question and its choices
+- As i user one can able to see ;
+1. An email input login.
+2. The number of questions through a dropdown key.
+3. Submit button when click displays the questions and its choices.
 
 # live link
 - https://kericho.github.io/Homework-quiz/
